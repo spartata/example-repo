@@ -7,8 +7,11 @@ GIT COMMANDS USED:
 
 git status
 git diff README.md
+// wrap up file and prepare to commit - put in stage state i.e. stage box is all files that will be committed
 git add README.md
+// commit all staged files in your local repo
 git commit -m "README Markdown file commit"
+// push in main repo
 git push origin main
 
 [comment]: <> (This is a comment, it will not be included)
